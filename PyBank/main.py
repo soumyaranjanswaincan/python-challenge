@@ -1,8 +1,10 @@
 import os
 import csv
 
-bank_csv = "C:\\Soumya\\Data Analytics\\Module 3 - Challenge\\python-challenge\\PyBank\\Resources\\budget_data.csv"
+# get file path
+bank_csv = os.path.join(".", "Resources", "budget_data.csv")
 
+# declare and initialize variables
 total_months = 0
 total_Profit_Loss = 0
 

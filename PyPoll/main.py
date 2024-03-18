@@ -1,9 +1,10 @@
 import os
 import csv
 
-#census_csv = os.path.join("..", "Resources", "election_data.csv")
-poll_csv = "C:\\Soumya\\Data Analytics\\Module 3 - Challenge\\python-challenge\\PyPoll\\Resources\\election_data.csv"
+# get file path
+poll_csv = os.path.join(".", "Resources", "election_data.csv")
 
+# variable to hold total value
 total_votes = 0
 
 # declare empty dictionary
