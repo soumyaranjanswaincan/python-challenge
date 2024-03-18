@@ -50,17 +50,9 @@ for item in profit_loss_change_list:
 
 avg_percent_change= round(total_profit_loss_change/(len(profit_loss_change_list)),2)
 
-""" print(total_months)
-print(total_Profit_Loss) 
-print(profit_loss_list)
-print(total_profit_loss_change)
-print(avg_percent_change)
-print(greatest_profit_increase_date)
-print(greatest_profit_decrease_date)
-print(max)
-print(min) """
 
-print("Finalcial Analysis\n")
+# Print output to terminal
+print("Financial Analysis\n")
 print("-----------------------------------------------\n")
 print ("Total Months: " + str(total_months)+"\n")
 print ("Total: $" + str(total_Profit_Loss)+"\n")

@@ -33,7 +33,7 @@ with open(poll_csv) as csvfile:
             # add new candidate with 1 vote
             candidates[candidate_name] = 1
 
-
+# Print output to terminal
 print("Election Results\n")
 print("-----------------------------------------------\n")
 print ("Total votes: " + str(total_votes)+"\n")
